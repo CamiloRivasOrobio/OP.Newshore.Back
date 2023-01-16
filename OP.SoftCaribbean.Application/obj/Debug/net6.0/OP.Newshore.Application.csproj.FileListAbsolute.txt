@@ -1,0 +1,15 @@
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\OP.Newshore.Application.deps.json
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\OP.Newshore.Application.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\ref\OP.Newshore.Application.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\OP.Newshore.Application.pdb
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\OP.Newshore.Domain.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\bin\Debug\net6.0\OP.Newshore.Domain.pdb
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.csproj.AssemblyReference.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.AssemblyInfoInputs.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.AssemblyInfo.cs
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.csproj.CopyComplete
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\ref\OP.Newshore.Application.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Application\obj\Debug\net6.0\OP.Newshore.Application.pdb

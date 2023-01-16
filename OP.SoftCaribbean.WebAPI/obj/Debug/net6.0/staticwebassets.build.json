@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x9OxTwCQbD9MHYYx6FPOmenHsoRK0rvErQZuJKqByeU=",
+  "Source": "OP.Newshore.WebAPI",
+  "BasePath": "_content/OP.Newshore.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

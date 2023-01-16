@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc40c536-9e56-4607-b913-cab227cef9f3": {
+      "ProjectGuid": "fc40c536-9e56-4607-b913-cab227cef9f3",
+      "DisplayName": "OP.SoftCaribbean.Application",
+      "ColorIndex": 0
+    },
+    "1924c3e5-e08f-459e-bec6-2755a52c7369": {
+      "ProjectGuid": "1924c3e5-e08f-459e-bec6-2755a52c7369",
+      "DisplayName": "OP.SoftCaribbean.Domain",
+      "ColorIndex": 1
+    },
+    "4fc75b57-2aef-4383-ad0b-015ce7e208ff": {
+      "ProjectGuid": "4fc75b57-2aef-4383-ad0b-015ce7e208ff",
+      "DisplayName": "OP.SoftCaribbean.Persistence",
+      "ColorIndex": 2
+    },
+    "53e783eb-8a2a-4e7e-af8a-43bfceff7f76": {
+      "ProjectGuid": "53e783eb-8a2a-4e7e-af8a-43bfceff7f76",
+      "DisplayName": "OP.SoftCaribbean.Shared",
+      "ColorIndex": 3
+    },
+    "f506c2dd-dcdb-4c55-824c-a1cdd38e5cc6": {
+      "ProjectGuid": "f506c2dd-dcdb-4c55-824c-a1cdd38e5cc6",
+      "DisplayName": "OP.SoftCaribbean.WebAPI",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "840b01c3-fbcd-4424-916c-f6126b05f3ea": {
+      "ProjectGuid": "840b01c3-fbcd-4424-916c-f6126b05f3ea",
+      "DisplayName": "OP.SoftCaribbean.Test",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

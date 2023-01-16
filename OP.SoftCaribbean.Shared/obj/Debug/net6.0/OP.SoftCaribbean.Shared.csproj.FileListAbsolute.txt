@@ -1,0 +1,17 @@
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Shared.deps.json
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Shared.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\ref\OP.SoftCaribbean.Shared.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Shared.pdb
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Application.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Domain.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Application.pdb
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\bin\Debug\net6.0\OP.SoftCaribbean.Domain.pdb
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.csproj.AssemblyReference.cache
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.AssemblyInfoInputs.cache
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.AssemblyInfo.cs
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.csproj.CopyComplete
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\ref\OP.SoftCaribbean.Shared.dll
+C:\Users\ander\source\repos\OP.SoftCaribbean.Api\OP.SoftCaribbean.Shared\obj\Debug\net6.0\OP.SoftCaribbean.Shared.pdb

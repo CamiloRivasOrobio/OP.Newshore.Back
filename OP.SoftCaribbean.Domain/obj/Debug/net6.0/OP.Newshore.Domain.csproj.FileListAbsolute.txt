@@ -1,0 +1,12 @@
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\bin\Debug\net6.0\OP.Newshore.Domain.deps.json
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\bin\Debug\net6.0\OP.Newshore.Domain.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\bin\Debug\net6.0\ref\OP.Newshore.Domain.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\bin\Debug\net6.0\OP.Newshore.Domain.pdb
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.csproj.AssemblyReference.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.AssemblyInfoInputs.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.AssemblyInfo.cs
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\ref\OP.Newshore.Domain.dll
+C:\Users\ander\OneDrive\Escritorio\SoftCaribbean\OP.Newshore.Api\OP.SoftCaribbean.Domain\obj\Debug\net6.0\OP.Newshore.Domain.pdb
