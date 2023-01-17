@@ -11,6 +11,7 @@ namespace OP.Newshore.Shared
         {
             services.AddTransient<IDateTimeService, DateTimeService>();
             services.AddTransient<IGenericClientHttp, GenericClientHttp>();
+            services.AddTransient<ICurrencyConvert, CurrencyConvert>();
         }
     }
 }

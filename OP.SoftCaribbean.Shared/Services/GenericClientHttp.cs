@@ -15,6 +15,7 @@ using Newtonsoft.Json;
 using OP.Newshore.Application.Exceptions;
 using OP.Newshore.Application.Interfaces;
 using System.Diagnostics.CodeAnalysis;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 
@@ -47,8 +48,10 @@ namespace OP.Newshore.Shared.Services
             string jwtToken, string? keyValue = null, string? keyName = null)
         {
             string responseBody = "";
+            client.DefaultRequestHeaders.Clear();
             if (keyValue != null && keyName != null)
-                client.DefaultRequestHeaders.Add(keyName, keyValue);
+                client.DefaultRequestHeaders.Add("ApiKey", "IIYhXBPD6ZqTuIffYS4FTdhpUSmZBrl2");
+            //client.DefaultRequestHeaders.Add(keyName, keyValue);
 
             HttpResponseMessage response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();

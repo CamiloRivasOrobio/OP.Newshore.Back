@@ -16,7 +16,7 @@ namespace OP.Newshore.Persistence.Context
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             _dateTime = dateTime;
         }
-        public DbSet<Fligth> Fligth { get; set; }
+        public DbSet<Flight> Flight { get; set; }
         public DbSet<Journey> Journey { get; set; }
         public DbSet<Transport> Personas { get; set; }
         public Task<int> SaveChangeAsync(CancellationToken cancellationToken = new CancellationToken())

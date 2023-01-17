@@ -10,14 +10,14 @@ using Xunit;
 
 namespace OP.Newshore.Test.Controller.v1
 {
-    public class FligthControllerTests
+    public class FlightControllerTests
     {
-        private readonly IRepositoryAsync<Domain.Entities.Fligth> _repositoryAsync;
+        private readonly IRepositoryAsync<Domain.Entities.Flight> _repositoryAsync;
         private readonly IMapper _mapper;
 
-        public FligthControllerTests()
+        public FlightControllerTests()
         {
-            _repositoryAsync = A.Fake<IRepositoryAsync<Domain.Entities.Fligth>>();
+            _repositoryAsync = A.Fake<IRepositoryAsync<Domain.Entities.Flight>>();
             _mapper = A.Fake<IMapper>();
         }
 

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace OP.Newshore.Application.Features.Fligth.Queries.GetTravelRouteQuery
+namespace OP.Newshore.Application.Features.Flight.Queries.GetTravelRouteQuery
 {
     public class GetTravelRouteQueryValidator : AbstractValidator<GetTravelRouteQuery>
     {

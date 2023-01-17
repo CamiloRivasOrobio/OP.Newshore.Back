@@ -12,7 +12,7 @@
 // <summary></summary>
 // ***********************************************************************
 using Microsoft.AspNetCore.Mvc;
-using OP.Newshore.Application.Features.Fligth.Queries.GetTravelRouteQuery;
+using OP.Newshore.Application.Features.Flight.Queries.GetTravelRouteQuery;
 
 namespace OP.Newshore.WebAPI.Controllers.v1
 {
@@ -22,7 +22,7 @@ namespace OP.Newshore.WebAPI.Controllers.v1
     /// </summary>
     /// <seealso cref="BaseApiController" />
     [ApiVersion("1.0")]
-    public class FligthController : BaseApiController
+    public class FlightController : BaseApiController
     {
         /// GET api/<controller>
         /// <summary>
@@ -45,7 +45,8 @@ namespace OP.Newshore.WebAPI.Controllers.v1
             return Ok(await Mediator.Send(new GetTravelRouteQuery
             {
                 Origin = filter.Origin,
-                Destination = filter.Destination
+                Destination = filter.Destination,
+                Currency = filter.Currency
             }));
         }
     }

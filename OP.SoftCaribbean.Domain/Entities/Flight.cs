@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OP.Newshore.Domain.Entities
 {
-    public class Fligth
+    public class Flight
     {
         public string Origin { get; set; }
         public string Destination { get; set; }

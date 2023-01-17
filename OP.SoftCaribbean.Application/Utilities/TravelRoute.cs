@@ -1,4 +1,5 @@
 ﻿using OP.Newshore.Application.DTOs;
+using OP.Newshore.Application.Interfaces;
 using OP.Newshore.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,35 +11,41 @@ namespace OP.Newshore.Application.Utilities
 {
     public class TravelRoute
     {
-        public List<Fligth> GenerateFlightRoute(string Origin, string Destination, List<ResponseFligthsDto> fligths)
+        private readonly ICurrencyConvert _currencyConvert;
+        public TravelRoute(ICurrencyConvert currencyConvert)
         {
-            List<ResponseFligthsDto> fligthsRoute = new();
-            fligthsRoute = fligths.Where(f => f.DepartureStation == Origin && f.ArrivalStation == Destination).ToList();
-            if (!fligthsRoute.Any())
+            this._currencyConvert = currencyConvert;
+        }
+        public async Task<List<Flight>> GenerateFlightRoute(string Origin, string Destination, string currency, List<ResponseFlightsDto> Flights, CancellationTokenSource cancellationToken)
+        {
+            List<ResponseFlightsDto> FlightsRoute = new();
+            FlightsRoute = Flights.Where(f => f.DepartureStation == Origin && f.ArrivalStation == Destination).ToList();
+            if (!FlightsRoute.Any())
             {
-                List<ResponseFligthsDto> fligthsRouteOrigin = fligths.Where(f => f.DepartureStation == Origin).ToList();
-                List<ResponseFligthsDto> fligthsRouteDestination = fligths.Where(f => f.ArrivalStation == Destination).ToList();
-                foreach (var itemOrigin in fligthsRouteOrigin)
-                    foreach (var itemDestination in fligthsRouteDestination)
+                List<ResponseFlightsDto> FlightsRouteOrigin = Flights.Where(f => f.DepartureStation == Origin).ToList();
+                List<ResponseFlightsDto> FlightsRouteDestination = Flights.Where(f => f.ArrivalStation == Destination).ToList();
+                foreach (var itemOrigin in FlightsRouteOrigin)
+                    foreach (var itemDestination in FlightsRouteDestination)
                         if (itemOrigin.ArrivalStation == itemDestination.DepartureStation)
                         {
-                            fligthsRoute.Add(itemOrigin);
-                            fligthsRoute.Add(itemDestination);
+                            FlightsRoute.Add(itemOrigin);
+                            FlightsRoute.Add(itemDestination);
                         }
             }
-            List<Domain.Entities.Fligth> fligth = new();
-            foreach (var item in fligthsRoute)
+            List<Domain.Entities.Flight> Flight = new();
+            foreach (var item in FlightsRoute)
             {
-                Domain.Entities.Fligth fli = new()
+                Domain.Entities.Flight fli = new()
                 {
                     Origin = item.DepartureStation,
                     Destination = item.ArrivalStation,
+                    //Price = await this._currencyConvert.ChangeCurrency(currency, item.Price, cancellationToken, ""),
                     Price = item.Price,
                     Transport = new Domain.Entities.Transport() { FlightCarrier = item.FlightCarrier, FlightNumber = item.FlightNumber }
                 };
-                fligth.Add(fli);
+                Flight.Add(fli);
             }
-            return fligth;
+            return Flight;
         }
     }
 }

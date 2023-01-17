@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Fligth\Commands\" />
+    <Folder Include="Features\Flight\Commands\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 

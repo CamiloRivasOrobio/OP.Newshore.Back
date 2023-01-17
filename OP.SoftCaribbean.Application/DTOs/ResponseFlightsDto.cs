@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OP.Newshore.Application.DTOs
 {
-    public class ResponseFligthsDto
+    public class ResponseFlightsDto
     {
         public string DepartureStation { get; set; }
         public string ArrivalStation { get; set; }
