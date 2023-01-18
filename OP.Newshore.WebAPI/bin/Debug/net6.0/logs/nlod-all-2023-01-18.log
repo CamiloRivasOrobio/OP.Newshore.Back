@@ -1,0 +1,9 @@
+2023-01-18 01:11:51.0181|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: El origen y el destino deben ser diferentes.
+2023-01-18 01:12:58.3102|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-18 01:16:55.8101|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-18 01:16:57.9150|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: System.Collections.Generic.List`1[System.String]
+2023-01-18 01:21:27.5414|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-18 01:21:29.9916|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: System.Collections.Generic.List`1[System.String]
+2023-01-18 01:24:43.2460|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-18 01:24:59.5035|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Origin no debe exceder de 3.
+2023-01-18 01:24:59.5035|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Destination no debe exceder de 3.

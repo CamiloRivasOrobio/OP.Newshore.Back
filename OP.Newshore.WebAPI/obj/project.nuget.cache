@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xR6I55mE/ZPYFzoiXdjr7wdiL/wH1YY4MNAtjH33ZPLdAT94l43c8AfrNE/vAHiMtmiC8Wb5UiqEOecYt+zn7g==",
+  "dgSpecHash": "YaagVmVamHJXpQMYP7s/bj5RWQ4gPnzkI1BqAmE7iQhEIRbvWefuyiVU2ZxGA+2cK4Yqq3iI+gtLhnZj7rSNiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,8 @@
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\nlog\\5.1.1\\nlog.5.1.1.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\nlog.extensions.logging\\5.2.1\\nlog.extensions.logging.5.2.1.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

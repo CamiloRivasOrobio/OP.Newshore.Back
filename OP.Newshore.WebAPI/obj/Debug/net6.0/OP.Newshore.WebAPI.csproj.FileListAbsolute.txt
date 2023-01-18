@@ -419,3 +419,6 @@ C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\o
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\obj\Debug\net6.0\scopedcss\bundle\OP.Newshore.WebAPI.styles.css
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\obj\Debug\net6.0\OP.Newshore.WebAPI.csproj.CopyComplete
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\obj\Debug\net6.0\OP.Newshore.WebAPI.genruntimeconfig.cache
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\bin\Debug\net6.0\nlog.config
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\bin\Debug\net6.0\NLog.dll
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.WebAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll

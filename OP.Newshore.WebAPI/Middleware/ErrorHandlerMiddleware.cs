@@ -7,10 +7,12 @@ namespace OP.Newshore.WebAPI.Middleware
     public class ErrorHandlerMiddleware
     {
         private readonly RequestDelegate _next;
+        public readonly ILogger<ErrorHandlerMiddleware> _log;
 
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        public ErrorHandlerMiddleware(RequestDelegate next, ILogger<ErrorHandlerMiddleware> log)
         {
             _next = next;
+            _log = log;
         }
 
         public async Task Invoke(HttpContext context)
@@ -21,6 +23,7 @@ namespace OP.Newshore.WebAPI.Middleware
             }
             catch (Exception error)
             {
+                _log.LogError("Se ha producido un error al ejecutar una función: " + error?.Message);
                 var response = context.Response;
                 response.ContentType = "application/json";
                 var responseModel = new Response<string>() { Succeeded = false, Message = error?.Message };
@@ -45,6 +48,10 @@ namespace OP.Newshore.WebAPI.Middleware
                         break;
                 }
                 var result = JsonSerializer.Serialize(responseModel);
+                foreach (var item in responseModel.Erros)
+                {
+                    _log.LogError("Se ha producido un error al ejecutar una función: " + item);
+                }
                 await response.WriteAsync(result);
             }
         }
