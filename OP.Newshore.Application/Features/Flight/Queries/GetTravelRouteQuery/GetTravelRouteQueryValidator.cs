@@ -13,6 +13,9 @@ namespace OP.Newshore.Application.Features.Flight.Queries.GetTravelRouteQuery
             RuleFor(p => p.Destination)
                .NotEmpty().WithMessage("{PropertyName} no puede ser vacio.")
                .MaximumLength(3).WithMessage("{PropertyName} no debe exceder de {MaxLength}.");
+
+            RuleFor(p => p.Origin)
+                .NotEqual(p => p.Destination).WithMessage("El origen y el destino deben ser diferentes.");
         }
     }
 }

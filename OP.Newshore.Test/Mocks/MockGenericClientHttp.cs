@@ -12,11 +12,11 @@ namespace OP.Newshore.Test.Mocks
 {
     public class MockGenericClientHttp
     {
-        public static Mock<IGenericClientHttp> GetRequestAsync(string url, CancellationTokenSource cancellationToken,
+        public static Mock<IGenericClientHttpService> GetRequestAsync(string url, CancellationToken cancellationToken,
             string jwtToken, string? keyValue = null, string? keyName = null)
         {
 
-            var mockClient = new Mock<IGenericClientHttp>();
+            var mockClient = new Mock<IGenericClientHttpService>();
             mockClient.Setup(r => r.GetRequestAsync<JourneyDto>(url, cancellationToken, jwtToken, keyValue, keyName));
 
             return mockClient;

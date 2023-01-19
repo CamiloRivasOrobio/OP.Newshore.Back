@@ -16,7 +16,7 @@ namespace OP.Newshore.Persistence
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
             #region Repositories
-            services.AddTransient(typeof(IRepositoryAsync<>), typeof(MyRepositoryAsync<>));
+            services.AddTransient(typeof(IRepositoryAsyncService<>), typeof(MyRepositoryAsync<>));
             #endregion
         }
     }

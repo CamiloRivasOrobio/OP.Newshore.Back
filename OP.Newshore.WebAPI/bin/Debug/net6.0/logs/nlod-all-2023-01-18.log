@@ -7,3 +7,5 @@
 2023-01-18 01:24:43.2460|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
 2023-01-18 01:24:59.5035|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Origin no debe exceder de 3.
 2023-01-18 01:24:59.5035|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Destination no debe exceder de 3.
+2023-01-18 18:20:12.7605|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-18 18:20:12.8008|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: El origen y el destino deben ser diferentes.

@@ -9,9 +9,10 @@ namespace OP.Newshore.Shared
     {
         public static void AddSharedInfraestructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddTransient<IDateTimeService, DateTimeService>();
-            services.AddTransient<IGenericClientHttp, GenericClientHttp>();
-            services.AddTransient<ICurrencyConvert, CurrencyConvert>();
+            services.AddTransient<IGenericClientHttpService, GenericClientHttpService>();
+            services.AddTransient<ICurrencyConvertService, CurrencyConvertService>();
+            services.AddTransient<IGetTravelRouteService, GetTravelRouteService>();
+            services.AddTransient<ITravelRouteService, TravelRouteService>();
         }
     }
 }

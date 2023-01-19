@@ -19,6 +19,8 @@
   <ItemGroup>
     <Folder Include="Features\Flight\Commands\" />
     <Folder Include="Filters\" />
+    <Folder Include="Parameters\" />
+    <Folder Include="Specifications\" />
   </ItemGroup>
 
   <ItemGroup>

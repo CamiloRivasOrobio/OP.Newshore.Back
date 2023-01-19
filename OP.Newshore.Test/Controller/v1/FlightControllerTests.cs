@@ -21,11 +21,11 @@ namespace OP.Newshore.Test.Controller.v1
 {
     public class FlightControllerTests
     {
-        private readonly IRepositoryAsync<Journey> _journeyRepository;
+        private readonly IRepositoryAsyncService<Journey> _journeyRepository;
         private readonly IMediator _mediator;
         public FlightControllerTests(IMediator mediator)
         {
-            _journeyRepository = A.Fake<IRepositoryAsync<Journey>>();
+            _journeyRepository = A.Fake<IRepositoryAsyncService<Journey>>();
             _mediator = mediator;
         }
 

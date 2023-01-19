@@ -1,22 +1,18 @@
 ﻿using OP.Newshore.Application.DTOs;
 using OP.Newshore.Application.Interfaces;
 using OP.Newshore.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace OP.Newshore.Application.Utilities
+namespace OP.Newshore.Shared.Services
 {
-    public class TravelRoute
+    public class TravelRouteService : ITravelRouteService
     {
-        private readonly ICurrencyConvert _currencyConvert;
-        public TravelRoute(ICurrencyConvert currencyConvert)
+        private readonly ICurrencyConvertService _currencyConvert;
+        public TravelRouteService(ICurrencyConvertService currencyConvert)
         {
             this._currencyConvert = currencyConvert;
         }
-        public async Task<List<Flight>> GenerateFlightRoute(string Origin, string Destination, string currency, List<ResponseFlightsDto> Flights, CancellationTokenSource cancellationToken)
+        public async Task<List<Flight>> GenerateFlightRoute(string Origin, string Destination, string currency,
+            List<ResponseFlightsDto> Flights, CancellationToken cancellationToken)
         {
             List<ResponseFlightsDto> FlightsRoute = new();
             FlightsRoute = Flights.Where(f => f.DepartureStation == Origin && f.ArrivalStation == Destination).ToList();
@@ -39,8 +35,8 @@ namespace OP.Newshore.Application.Utilities
                 {
                     Origin = item.DepartureStation,
                     Destination = item.ArrivalStation,
-                    Price = await this._currencyConvert.ChangeCurrency(currency, item.Price, cancellationToken, ""),
-                    //Price = item.Price,
+                    //Price = await this._currencyConvert.ChangeCurrency(currency, item.Price, cancellationToken, ""),
+                    Price = item.Price,
                     Transport = new Domain.Entities.Transport() { FlightCarrier = item.FlightCarrier, FlightNumber = item.FlightNumber }
                 };
                 Flight.Add(fli);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OP.Newshore.Application.Interfaces
 {
-    public interface IRepositoryAsync<T> : IRepositoryBase<T> where T : class
+    public interface IRepositoryAsyncService<T> : IRepositoryBase<T> where T : class
     {
     }
     public interface IReadRepositoryAsync<T> : IReadRepositoryBase<T> where T : class

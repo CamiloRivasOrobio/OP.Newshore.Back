@@ -17,7 +17,7 @@ namespace OP.Newshore.Application.Interfaces
     /// <summary>
     /// Interface IGenericClientHttp
     /// </summary>
-    public interface IGenericClientHttp
+    public interface IGenericClientHttpService
     {
         /// <summary>
         /// Gets the request asynchronous.
@@ -27,7 +27,7 @@ namespace OP.Newshore.Application.Interfaces
         /// <param name="cancellationToken">The cancellation token.</param>
         /// <param name="jwtToken">The JWT token.</param>
         /// <returns>Task&lt;TOut&gt;.</returns>
-        Task<TOut> GetRequestAsync<TOut>(string url, CancellationTokenSource cancellationToken,
+        Task<TOut> GetRequestAsync<TOut>(string url, CancellationToken cancellationToken,
             string jwtToken, string? keyValue = null, string? keyName = null);
     }
 }
