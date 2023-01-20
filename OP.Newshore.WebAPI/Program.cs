@@ -3,6 +3,7 @@ using OP.Newshore.Persistence;
 using OP.Newshore.Shared;
 using OP.Newshore.WebAPI.Extensions;
 using NLog.Extensions.Logging;
+using System.Diagnostics.CodeAnalysis;
 
 var builder = WebApplication.CreateBuilder(args);
 var provider = builder.Services.BuildServiceProvider();
@@ -46,3 +47,9 @@ app.UseErrorHandleMiddleware();
 app.MapControllers();
 
 app.Run();
+
+namespace OP.Newshore.WebAPI
+{
+    [ExcludeFromCodeCoverage]
+    public partial class Program { }
+}

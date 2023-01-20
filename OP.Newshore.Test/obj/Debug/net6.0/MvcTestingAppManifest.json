@@ -1,0 +1,7 @@
+{
+  "OP.Newshore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application",
+  "OP.Newshore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain",
+  "OP.Newshore.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence",
+  "OP.Newshore.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared",
+  "OP.Newshore.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI"
+}

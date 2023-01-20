@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9v+qkLUXitSVb97ArVwbrN8vlhEK6KXvj8uMZ8ZFk1UodSyiPm55mNvjI8XNVKag163mO9l2+reISK03Cdi7mQ==",
+  "dgSpecHash": "a+gdQw4eMwH+KU+IZjeGavGjnEl5xL3ZNDOIW9Y5/XOXzeGfYtYsZq386OgQs6bqbSwoCEP/l9LgKEUM/N9Smg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
+  "projectFilePath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

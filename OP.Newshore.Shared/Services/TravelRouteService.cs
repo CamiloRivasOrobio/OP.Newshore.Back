@@ -35,8 +35,8 @@ namespace OP.Newshore.Shared.Services
                 {
                     Origin = item.DepartureStation,
                     Destination = item.ArrivalStation,
-                    //Price = await this._currencyConvert.ChangeCurrency(currency, item.Price, cancellationToken, ""),
-                    Price = item.Price,
+                    Price = await this._currencyConvert.ChangeCurrency(currency, item.Price, cancellationToken, string.Empty),
+                    //Price = item.Price,
                     Transport = new Domain.Entities.Transport() { FlightCarrier = item.FlightCarrier, FlightNumber = item.FlightNumber }
                 };
                 Flight.Add(fli);

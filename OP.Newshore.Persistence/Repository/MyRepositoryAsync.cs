@@ -1,5 +1,6 @@
 ﻿using Ardalis.Specification.EntityFrameworkCore;
 using OP.Newshore.Application.Interfaces;
+using OP.Newshore.Persistence.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,0 +1,3 @@
+2023-01-19 15:33:43.8238|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder. (recruiting-api.newshore.es:443)
+2023-01-19 15:37:55.0789|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: Se han producido uno o más errores de validación.
+2023-01-19 15:37:55.6706|ERROR|OP.Newshore.WebAPI.Middleware.ErrorHandlerMiddleware|Se ha producido un error al ejecutar una función: El origen y el destino deben ser diferentes.

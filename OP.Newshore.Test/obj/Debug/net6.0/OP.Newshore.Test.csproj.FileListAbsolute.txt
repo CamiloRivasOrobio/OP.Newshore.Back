@@ -646,3 +646,6 @@ C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\bin
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\obj\Debug\net6.0\OP.Newshore.Test.csproj.CopyComplete
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\obj\Debug\net6.0\OP.Newshore.Test.genruntimeconfig.cache
 C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\bin\Debug\net6.0\Moq.dll
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\bin\Debug\net6.0\nlog.config
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\bin\Debug\net6.0\NLog.dll
+C:\Users\ander\OneDrive\Escritorio\Newshore\OP.Newshore.Api\OP.Newshore.Test\bin\Debug\net6.0\NLog.Extensions.Logging.dll

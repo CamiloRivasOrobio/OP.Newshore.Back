@@ -35,7 +35,32 @@
       "ProjectGuid": "840b01c3-fbcd-4424-916c-f6126b05f3ea",
       "DisplayName": "OP.SoftCaribbean.Test",
       "ColorIndex": 5
+    },
+    "5304dd6a-1cf7-4096-a0a5-c443a2c02b2b": {
+      "ProjectGuid": "5304dd6a-1cf7-4096-a0a5-c443a2c02b2b",
+      "DisplayName": "OP.Newshore.Application",
+      "ColorIndex": 6
+    },
+    "ec6852fc-815a-4d28-987c-a8d0cefdabb8": {
+      "ProjectGuid": "ec6852fc-815a-4d28-987c-a8d0cefdabb8",
+      "DisplayName": "OP.Newshore.WebAPI",
+      "ColorIndex": 7
+    },
+    "7f579520-7701-4333-894c-1be2250d6335": {
+      "ProjectGuid": "7f579520-7701-4333-894c-1be2250d6335",
+      "DisplayName": "OP.Newshore.Shared",
+      "ColorIndex": 8
+    },
+    "7ebadeb0-4dfd-4c00-8fd2-00e8219d08cc": {
+      "ProjectGuid": "7ebadeb0-4dfd-4c00-8fd2-00e8219d08cc",
+      "DisplayName": "OP.Newshore.Test",
+      "ColorIndex": 9
+    },
+    "a94cb81c-bb47-4fbd-882c-9debf5d06f2d": {
+      "ProjectGuid": "a94cb81c-bb47-4fbd-882c-9debf5d06f2d",
+      "DisplayName": "OP.Newshore.Persistence",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 11
 }

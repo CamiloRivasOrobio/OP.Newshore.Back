@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Test\\OP.Newshore.Test.csproj": {}
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Test\\OP.Newshore.Test.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj",
         "projectName": "OP.Newshore.Application",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj"
               }
             }
           }
@@ -84,8 +83,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -94,24 +92,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
         "projectName": "OP.Newshore.Domain",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,7 +118,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,8 +141,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,24 +150,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj",
         "projectName": "OP.Newshore.Persistence",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,18 +176,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
               },
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Domain\\OP.Newshore.Domain.csproj"
               }
             }
           }
@@ -229,8 +224,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -239,24 +233,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj",
         "projectName": "OP.Newshore.Shared",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,15 +259,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
               }
             }
           }
@@ -307,8 +300,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -317,24 +309,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Test\\OP.Newshore.Test.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Test\\OP.Newshore.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Test\\OP.Newshore.Test.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Test\\OP.Newshore.Test.csproj",
         "projectName": "OP.Newshore.Test",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Test\\OP.Newshore.Test.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Test\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Test\\OP.Newshore.Test.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -343,18 +335,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
               },
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj"
               }
             }
           }
@@ -412,8 +403,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -422,24 +412,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj",
         "projectName": "OP.Newshore.WebAPI",
-        "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\OP.Newshore.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -448,21 +438,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Application\\OP.Newshore.Application.csproj"
               },
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Persistence\\OP.Newshore.Persistence.csproj"
               },
-              "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj": {
-                "projectPath": "C:\\Projects\\Newshore\\OP.Newshore.Back\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj"
+              "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj": {
+                "projectPath": "C:\\Users\\ander\\OneDrive\\Escritorio\\Newshore\\OP.Newshore.Api\\OP.Newshore.Shared\\OP.Newshore.Shared.csproj"
               }
             }
           }
@@ -506,8 +495,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -519,7 +507,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

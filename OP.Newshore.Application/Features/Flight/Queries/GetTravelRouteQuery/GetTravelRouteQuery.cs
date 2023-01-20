@@ -30,12 +30,13 @@ namespace OP.Newshore.Application.Features.Flight.Queries.GetTravelRouteQuery
         public async Task<Response<JourneyDto>> Handle(GetTravelRouteQuery request, CancellationToken cancellationToken)
         {
             var journeyDto = await this._getTravelRoute.Get(request, cancellationToken);
-            return new Response<JourneyDto>()
+            var prueba = new Response<JourneyDto>()
             {
                 Succeeded = journeyDto.Flights.Any() ? true : false,
                 Message = journeyDto.Flights.Any() ? "Consulta procesada exitosamente." : "Su consulta no pudo ser procesada.",
                 Journey = journeyDto
             };
+            return prueba;
         }
     }
 }
